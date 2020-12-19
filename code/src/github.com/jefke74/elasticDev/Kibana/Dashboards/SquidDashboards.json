@@ -1,0 +1,19 @@
+[
+    {
+      "_id": "Squid-Proxy",
+      "_type": "dashboard",
+      "_source": {
+        "title": "Squid Proxy",
+        "hits": 0,
+        "description": "",
+        "panelsJSON": "[{\"col\":1,\"id\":\"Squid-HTTP-Methods\",\"panelIndex\":1,\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":3,\"id\":\"Squid-HTTP-Status\",\"panelIndex\":2,\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":8,\"id\":\"Squid-Destination-URL\",\"panelIndex\":3,\"row\":1,\"size_x\":3,\"size_y\":4,\"type\":\"visualization\"},{\"col\":1,\"id\":\"Squid-Source-IPs\",\"panelIndex\":4,\"row\":3,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":5,\"id\":\"Squid-Requests\",\"panelIndex\":5,\"row\":1,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"},{\"col\":11,\"id\":\"Squid-Number\",\"panelIndex\":6,\"row\":1,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":1,\"columns\":[\"_source\"],\"id\":\"Squid-Proxy-Access\",\"panelIndex\":7,\"row\":5,\"size_x\":12,\"size_y\":4,\"sort\":[\"@timestamp\",\"desc\"],\"type\":\"search\"},{\"col\":11,\"id\":\"Squid-Content-Type\",\"panelIndex\":8,\"row\":3,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":3,\"id\":\"Squid-Server\",\"panelIndex\":9,\"row\":3,\"size_x\":2,\"size_y\":2,\"type\":\"visualization\"},{\"col\":5,\"id\":\"Squid-Response-Times\",\"panelIndex\":10,\"row\":3,\"size_x\":3,\"size_y\":2,\"type\":\"visualization\"}]",
+        "optionsJSON": "{\"darkTheme\":false}",
+        "uiStateJSON": "{}",
+        "version": 1,
+        "timeRestore": false,
+        "kibanaSavedObjectMeta": {
+          "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+        }
+      }
+    }
+  ]
